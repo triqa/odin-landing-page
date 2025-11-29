@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    border: 1px red dotted;
+    font-family: "Roboto";
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+header .nav {
+    display: flex;
+    background-color: #1F2937;
+    padding: 8px;
+}
+
+.nav .left {
+    color: white;
+    font-weight: bolder;
+}
+
+.nav .right {
+    margin-left: auto;
+}
+
+.right ul {
+    display: flex;
+    gap: 10px;
+}
+
+a {
+    color: #b8b8b8;
+}
