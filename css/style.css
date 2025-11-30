@@ -138,3 +138,21 @@ button {
     color: #5b5b5b;
     font-size: 17px;
 }
+
+.quote .container {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.quote .container :first-child {
+    font-style: italic;
+}
+
+.quote .container :last-child {
+    align-self: flex-end;
+    font-weight: bolder;
+}
